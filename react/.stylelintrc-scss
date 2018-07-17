@@ -1,0 +1,31 @@
+{
+  "ignoreFiles": [
+    "**/*.js",
+    "**/*.md",
+    "**/*.xml",
+    "**/*.svg"
+  ],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "function",
+          "if",
+          "else",
+          "for",
+          "each",
+          "include",
+          "mixin"
+        ]
+      }
+    ]
+  },
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-css-modules"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ignoreFiles": [
+    "**/*.js",
+    "**/*.md",
+    "**/*.xml",
+    "**/*.svg"
+  ],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-css-modules"
+  ]
+}

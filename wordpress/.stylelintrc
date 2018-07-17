@@ -1,0 +1,11 @@
+{
+  "ignoreFiles": [
+    "**/*.md",
+    "**/*.xml",
+    "**/*.js",
+    "**/*.svg"
+  ],
+  "extends": [
+    "stylelint-config-wordpress"
+  ]
+}
