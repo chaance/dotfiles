@@ -1,20 +1,6 @@
 module.exports = {
-  extends: ['prettier', 'prettier/react'],
-  env: {
-    browser: true,
-    es6: true,
-  },
-  plugins: ['react'],
-  globals: {
-    graphql: false,
-  },
-  parser: 'babel-eslint',
-  parserOptions: {
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-      jsx: true,
-      modules: true,
-    },
+  extends: ['prettier', 'prettier/react', 'react-app'],
+  rules: {
+    'jsx-a11y/anchor-is-valid': ['never'],
   },
 };
