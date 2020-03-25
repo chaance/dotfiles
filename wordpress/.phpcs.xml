@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<ruleset>
-	<!-- https://packagist.org/packages/chancedigital/wp-coding-standards -->
-	<rule ref="vendor/chancedigital/wp-coding-standards" />
-</ruleset>
