@@ -1,0 +1,7 @@
+{
+	"extends": [
+		"chance",
+		"chance/typescript",
+		"chance/react"
+	]
+}
